@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE21072B1B8EF12200D6E651 /* CaLayerImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE21072A1B8EF12200D6E651 /* CaLayerImageViewController.m */; };
+		DE2CFCA01B957740000759FC /* CALayerBasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2CFC9F1B957740000759FC /* CALayerBasicAnimationViewController.m */; };
+		DE35091F1B94284400771159 /* RULayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35091E1B94284400771159 /* RULayer.m */; };
+		DE3509221B942ACE00771159 /* RUView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3509211B942ACE00771159 /* RUView.m */; };
+		DE3754371B9A75DC005C636A /* CALayerKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3754361B9A75DC005C636A /* CALayerKeyframeAnimationViewController.m */; };
+		DE37543C1B9A7F38005C636A /* CALayerAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE37543B1B9A7F38005C636A /* CALayerAnimationGroupViewController.m */; };
+		DE37543F1B9A876C005C636A /* CALayerTransitionAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE37543E1B9A876C005C636A /* CALayerTransitionAnimationViewController.m */; };
+		DE83AB551C43875200CF36EA /* fafan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE83AB531C43875200CF36EA /* fafan.jpg */; };
+		DE83AB561C43875200CF36EA /* gua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE83AB541C43875200CF36EA /* gua.jpg */; };
+		DE83AB581C43875F00CF36EA /* shuiren.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE83AB571C43875F00CF36EA /* shuiren.jpg */; };
+		DE83AB5A1C43876C00CF36EA /* yangmi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE83AB591C43876C00CF36EA /* yangmi.jpg */; };
+		DE83AB5C1C43889100CF36EA /* xuehua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE83AB5B1C43889100CF36EA /* xuehua.jpg */; };
+		DE83AB611C438F0200CF36EA /* ExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE83AB601C438F0200CF36EA /* ExamplesTableViewController.m */; };
+		DECC944C1B8EE6B100637205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECC944B1B8EE6B100637205 /* main.m */; };
+		DECC944F1B8EE6B100637205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DECC944E1B8EE6B100637205 /* AppDelegate.m */; };
+		DECC94521B8EE6B100637205 /* RUMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DECC94511B8EE6B100637205 /* RUMainViewController.m */; };
+		DECC94571B8EE6B100637205 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECC94561B8EE6B100637205 /* Images.xcassets */; };
+		DECC945A1B8EE6B100637205 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECC94581B8EE6B100637205 /* LaunchScreen.xib */; };
+		DECC94661B8EE6B100637205 /* CaLayer_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DECC94651B8EE6B100637205 /* CaLayer_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DECC94601B8EE6B100637205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECC943E1B8EE6B100637205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECC94451B8EE6B100637205;
+			remoteInfo = "CaLayer Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE2107291B8EF12200D6E651 /* CaLayerImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaLayerImageViewController.h; sourceTree = "<group>"; };
+		DE21072A1B8EF12200D6E651 /* CaLayerImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaLayerImageViewController.m; sourceTree = "<group>"; };
+		DE2CFC9E1B957740000759FC /* CALayerBasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerBasicAnimationViewController.h; sourceTree = "<group>"; };
+		DE2CFC9F1B957740000759FC /* CALayerBasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerBasicAnimationViewController.m; sourceTree = "<group>"; };
+		DE35091D1B94284400771159 /* RULayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RULayer.h; sourceTree = "<group>"; };
+		DE35091E1B94284400771159 /* RULayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RULayer.m; sourceTree = "<group>"; };
+		DE3509201B942ACE00771159 /* RUView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUView.h; sourceTree = "<group>"; };
+		DE3509211B942ACE00771159 /* RUView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUView.m; sourceTree = "<group>"; };
+		DE3754351B9A75DC005C636A /* CALayerKeyframeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerKeyframeAnimationViewController.h; sourceTree = "<group>"; };
+		DE3754361B9A75DC005C636A /* CALayerKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerKeyframeAnimationViewController.m; sourceTree = "<group>"; };
+		DE37543A1B9A7F38005C636A /* CALayerAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerAnimationGroupViewController.h; sourceTree = "<group>"; };
+		DE37543B1B9A7F38005C636A /* CALayerAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerAnimationGroupViewController.m; sourceTree = "<group>"; };
+		DE37543D1B9A876C005C636A /* CALayerTransitionAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerTransitionAnimationViewController.h; sourceTree = "<group>"; };
+		DE37543E1B9A876C005C636A /* CALayerTransitionAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerTransitionAnimationViewController.m; sourceTree = "<group>"; };
+		DE83AB531C43875200CF36EA /* fafan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fafan.jpg; sourceTree = "<group>"; };
+		DE83AB541C43875200CF36EA /* gua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gua.jpg; sourceTree = "<group>"; };
+		DE83AB571C43875F00CF36EA /* shuiren.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shuiren.jpg; sourceTree = "<group>"; };
+		DE83AB591C43876C00CF36EA /* yangmi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yangmi.jpg; sourceTree = "<group>"; };
+		DE83AB5B1C43889100CF36EA /* xuehua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xuehua.jpg; sourceTree = "<group>"; };
+		DE83AB5F1C438F0200CF36EA /* ExamplesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesTableViewController.h; sourceTree = "<group>"; };
+		DE83AB601C438F0200CF36EA /* ExamplesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesTableViewController.m; sourceTree = "<group>"; };
+		DECC94461B8EE6B100637205 /* CaLayer Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CaLayer Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECC944A1B8EE6B100637205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECC944B1B8EE6B100637205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DECC944D1B8EE6B100637205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DECC944E1B8EE6B100637205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DECC94501B8EE6B100637205 /* RUMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUMainViewController.h; sourceTree = "<group>"; };
+		DECC94511B8EE6B100637205 /* RUMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUMainViewController.m; sourceTree = "<group>"; };
+		DECC94561B8EE6B100637205 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DECC94591B8EE6B100637205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DECC945F1B8EE6B100637205 /* CaLayer DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CaLayer DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECC94641B8EE6B100637205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECC94651B8EE6B100637205 /* CaLayer_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaLayer_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECC94431B8EE6B100637205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECC945C1B8EE6B100637205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE83AB5D1C438E6600CF36EA /* CalayerDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				DECC94501B8EE6B100637205 /* RUMainViewController.h */,
+				DECC94511B8EE6B100637205 /* RUMainViewController.m */,
+				DE2107291B8EF12200D6E651 /* CaLayerImageViewController.h */,
+				DE21072A1B8EF12200D6E651 /* CaLayerImageViewController.m */,
+				DE35091D1B94284400771159 /* RULayer.h */,
+				DE35091E1B94284400771159 /* RULayer.m */,
+				DE3509201B942ACE00771159 /* RUView.h */,
+				DE3509211B942ACE00771159 /* RUView.m */,
+			);
+			name = CalayerDrawing;
+			sourceTree = "<group>";
+		};
+		DE83AB5E1C438E7400CF36EA /* core animation */ = {
+			isa = PBXGroup;
+			children = (
+				DE2CFC9E1B957740000759FC /* CALayerBasicAnimationViewController.h */,
+				DE2CFC9F1B957740000759FC /* CALayerBasicAnimationViewController.m */,
+				DE3754351B9A75DC005C636A /* CALayerKeyframeAnimationViewController.h */,
+				DE3754361B9A75DC005C636A /* CALayerKeyframeAnimationViewController.m */,
+				DE37543A1B9A7F38005C636A /* CALayerAnimationGroupViewController.h */,
+				DE37543B1B9A7F38005C636A /* CALayerAnimationGroupViewController.m */,
+				DE37543D1B9A876C005C636A /* CALayerTransitionAnimationViewController.h */,
+				DE37543E1B9A876C005C636A /* CALayerTransitionAnimationViewController.m */,
+			);
+			name = "core animation";
+			sourceTree = "<group>";
+		};
+		DECC943D1B8EE6B100637205 = {
+			isa = PBXGroup;
+			children = (
+				DECC94481B8EE6B100637205 /* CaLayer Demo */,
+				DECC94621B8EE6B100637205 /* CaLayer DemoTests */,
+				DECC94471B8EE6B100637205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECC94471B8EE6B100637205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECC94461B8EE6B100637205 /* CaLayer Demo.app */,
+				DECC945F1B8EE6B100637205 /* CaLayer DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECC94481B8EE6B100637205 /* CaLayer Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DECC944D1B8EE6B100637205 /* AppDelegate.h */,
+				DECC944E1B8EE6B100637205 /* AppDelegate.m */,
+				DE83AB5F1C438F0200CF36EA /* ExamplesTableViewController.h */,
+				DE83AB601C438F0200CF36EA /* ExamplesTableViewController.m */,
+				DE83AB5E1C438E7400CF36EA /* core animation */,
+				DE83AB5D1C438E6600CF36EA /* CalayerDrawing */,
+				DECC94561B8EE6B100637205 /* Images.xcassets */,
+				DECC94581B8EE6B100637205 /* LaunchScreen.xib */,
+				DECC94491B8EE6B100637205 /* Supporting Files */,
+			);
+			path = "CaLayer Demo";
+			sourceTree = "<group>";
+		};
+		DECC94491B8EE6B100637205 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE83AB5B1C43889100CF36EA /* xuehua.jpg */,
+				DE83AB591C43876C00CF36EA /* yangmi.jpg */,
+				DE83AB571C43875F00CF36EA /* shuiren.jpg */,
+				DE83AB531C43875200CF36EA /* fafan.jpg */,
+				DE83AB541C43875200CF36EA /* gua.jpg */,
+				DECC944A1B8EE6B100637205 /* Info.plist */,
+				DECC944B1B8EE6B100637205 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DECC94621B8EE6B100637205 /* CaLayer DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DECC94651B8EE6B100637205 /* CaLayer_DemoTests.m */,
+				DECC94631B8EE6B100637205 /* Supporting Files */,
+			);
+			path = "CaLayer DemoTests";
+			sourceTree = "<group>";
+		};
+		DECC94631B8EE6B100637205 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECC94641B8EE6B100637205 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECC94451B8EE6B100637205 /* CaLayer Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECC94691B8EE6B100637205 /* Build configuration list for PBXNativeTarget "CaLayer Demo" */;
+			buildPhases = (
+				DECC94421B8EE6B100637205 /* Sources */,
+				DECC94431B8EE6B100637205 /* Frameworks */,
+				DECC94441B8EE6B100637205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CaLayer Demo";
+			productName = "CaLayer Demo";
+			productReference = DECC94461B8EE6B100637205 /* CaLayer Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DECC945E1B8EE6B100637205 /* CaLayer DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECC946C1B8EE6B100637205 /* Build configuration list for PBXNativeTarget "CaLayer DemoTests" */;
+			buildPhases = (
+				DECC945B1B8EE6B100637205 /* Sources */,
+				DECC945C1B8EE6B100637205 /* Frameworks */,
+				DECC945D1B8EE6B100637205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECC94611B8EE6B100637205 /* PBXTargetDependency */,
+			);
+			name = "CaLayer DemoTests";
+			productName = "CaLayer DemoTests";
+			productReference = DECC945F1B8EE6B100637205 /* CaLayer DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECC943E1B8EE6B100637205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rust_33;
+				TargetAttributes = {
+					DECC94451B8EE6B100637205 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DECC945E1B8EE6B100637205 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DECC94451B8EE6B100637205;
+					};
+				};
+			};
+			buildConfigurationList = DECC94411B8EE6B100637205 /* Build configuration list for PBXProject "CaLayer Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DECC943D1B8EE6B100637205;
+			productRefGroup = DECC94471B8EE6B100637205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECC94451B8EE6B100637205 /* CaLayer Demo */,
+				DECC945E1B8EE6B100637205 /* CaLayer DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECC94441B8EE6B100637205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE83AB5A1C43876C00CF36EA /* yangmi.jpg in Resources */,
+				DE83AB551C43875200CF36EA /* fafan.jpg in Resources */,
+				DECC945A1B8EE6B100637205 /* LaunchScreen.xib in Resources */,
+				DE83AB5C1C43889100CF36EA /* xuehua.jpg in Resources */,
+				DE83AB581C43875F00CF36EA /* shuiren.jpg in Resources */,
+				DECC94571B8EE6B100637205 /* Images.xcassets in Resources */,
+				DE83AB561C43875200CF36EA /* gua.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECC945D1B8EE6B100637205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECC94421B8EE6B100637205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE83AB611C438F0200CF36EA /* ExamplesTableViewController.m in Sources */,
+				DECC94521B8EE6B100637205 /* RUMainViewController.m in Sources */,
+				DE37543C1B9A7F38005C636A /* CALayerAnimationGroupViewController.m in Sources */,
+				DECC944F1B8EE6B100637205 /* AppDelegate.m in Sources */,
+				DE3509221B942ACE00771159 /* RUView.m in Sources */,
+				DE2CFCA01B957740000759FC /* CALayerBasicAnimationViewController.m in Sources */,
+				DE21072B1B8EF12200D6E651 /* CaLayerImageViewController.m in Sources */,
+				DECC944C1B8EE6B100637205 /* main.m in Sources */,
+				DE37543F1B9A876C005C636A /* CALayerTransitionAnimationViewController.m in Sources */,
+				DE35091F1B94284400771159 /* RULayer.m in Sources */,
+				DE3754371B9A75DC005C636A /* CALayerKeyframeAnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECC945B1B8EE6B100637205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECC94661B8EE6B100637205 /* CaLayer_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DECC94611B8EE6B100637205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECC94451B8EE6B100637205 /* CaLayer Demo */;
+			targetProxy = DECC94601B8EE6B100637205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DECC94581B8EE6B100637205 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECC94591B8EE6B100637205 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DECC94671B8EE6B100637205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DECC94681B8EE6B100637205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DECC946A1B8EE6B100637205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CaLayer Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AGC.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DECC946B1B8EE6B100637205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CaLayer Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AGC.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DECC946D1B8EE6B100637205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CaLayer DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AGC.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaLayer Demo.app/CaLayer Demo";
+			};
+			name = Debug;
+		};
+		DECC946E1B8EE6B100637205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CaLayer DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AGC.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaLayer Demo.app/CaLayer Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECC94411B8EE6B100637205 /* Build configuration list for PBXProject "CaLayer Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECC94671B8EE6B100637205 /* Debug */,
+				DECC94681B8EE6B100637205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECC94691B8EE6B100637205 /* Build configuration list for PBXNativeTarget "CaLayer Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECC946A1B8EE6B100637205 /* Debug */,
+				DECC946B1B8EE6B100637205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECC946C1B8EE6B100637205 /* Build configuration list for PBXNativeTarget "CaLayer DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECC946D1B8EE6B100637205 /* Debug */,
+				DECC946E1B8EE6B100637205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DECC943E1B8EE6B100637205 /* Project object */;
+}
