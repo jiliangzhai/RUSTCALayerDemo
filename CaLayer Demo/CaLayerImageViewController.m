@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     CGPoint position=CGPointMake(160, 200);
     CGRect bounds=CGRectMake(0, 0, 150, 150);
     CGFloat cornerRadius=75;
@@ -45,7 +47,7 @@
     
    // layer.transform=CATransform3DMakeRotation(M_PI, 1, 0, 0);//这一步操作可以替代下面的两步操作。
     
-    UIImage* image=[UIImage imageNamed:@"011.jpg"];
+    UIImage* image=[UIImage imageNamed:@"fafan.jpg"];
     layer.contents=(id)image.CGImage;
     
     //layer.delegate=self;

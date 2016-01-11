@@ -21,11 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
-    self.view.backgroundColor=[UIColor blackColor];
+    self.view.backgroundColor=[UIColor whiteColor];
     
     layer=[CALayer layer];
     layer.bounds=CGRectMake(0, 0, 50, 50);
-    layer.position=CGPointMake(50, 50);
+    layer.position=CGPointMake(50, 100);
     layer.contents=(id)[UIImage imageNamed:@"xuehua.jpg"].CGImage;
     layer.anchorPoint=CGPointMake(0.5, 0.5);
     [self.view.layer addSublayer:layer];

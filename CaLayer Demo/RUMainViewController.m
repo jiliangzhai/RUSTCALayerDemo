@@ -17,11 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    UIView* view=[[RUView alloc] init];
-    [self.view addSubview:view];
-    
-    //[self drawMyLayer];
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self drawMyLayer];
     
 }
 
@@ -33,18 +30,12 @@
 
 -(void) drawMyLayer
 {
-    NSLog(@"reach");
-    
-    
-    CGSize size=[UIScreen mainScreen].bounds.size;
-    
     CALayer* layer=[CALayer layer];
     
-    
-    [layer setBackgroundColor:[UIColor colorWithRed:0 green:146/255 blue:1 alpha:1].CGColor];
+    layer.backgroundColor = [UIColor blueColor].CGColor;
     layer.bounds=CGRectMake(0, 0, 50, 50);
-    layer.position=CGPointMake(size.width/2.0, size.height/2.0);
-    layer.cornerRadius=size.width/2.0;
+    layer.position=CGPointMake(100, 100);
+    layer.cornerRadius=25;
     
     layer.shadowColor=[UIColor grayColor].CGColor;
     layer.shadowOffset=CGSizeMake(2, 2);
@@ -56,7 +47,7 @@
     layer.anchorPoint=CGPointMake(0.5, 0.5);
     [self.view.layer addSublayer:layer];
     
-    [layer setNeedsDisplay];
+    //[layer setNeedsDisplay];
 }
 
 -(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event

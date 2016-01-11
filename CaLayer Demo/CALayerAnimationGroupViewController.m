@@ -20,10 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
+    self.view.backgroundColor = [UIColor whiteColor];
     layer=[[CALayer alloc] init];
-    layer.bounds=CGRectMake(0, 0, 20, 20);
+    layer.bounds=CGRectMake(0, 0, 50, 50);
     layer.position=CGPointMake(50, 150);
-    layer.contents=(id)[UIImage imageNamed:@"0111.jpg"].CGImage;
+    layer.contents=(id)[UIImage imageNamed:@"xuehua.jpg"].CGImage;
     
     [self.view.layer addSublayer:layer];
     [self animationGroup];

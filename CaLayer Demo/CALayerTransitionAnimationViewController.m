@@ -22,6 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     imageNames = @[@"yangmi.jpg",@"fafan.jpg",@"gua.jpg",@"shuiren.jpg"];
     
     imageView=[[UIImageView alloc] init];

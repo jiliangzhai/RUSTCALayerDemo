@@ -72,7 +72,6 @@
     NSString *className = exampleClassNames[indexPath.row];
     Class example = NSClassFromString(className);
     if (example) {
-        
         UIViewController *targetController = [example new];
         [self.navigationController pushViewController:targetController animated:YES];
     }
